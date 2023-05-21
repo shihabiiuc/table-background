@@ -61,4 +61,8 @@ h2 {
 }
 .example-2 table tr:hover {
   background-color: #d9dadb;
+}
+
+.example-3 table {
+  background-image: url(./img/y-so-serious-white.png);
 }/*# sourceMappingURL=style.css.map */
