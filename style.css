@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e9ebec;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.container {
+  padding: 90px 15px;
+}
+.container table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  text-align: left;
+}
+.container table tr td,
+.container table tr th {
+  border: 1px solid #ff0000;
+  padding: 12px 8px;
+}
+
+.example-1 {
+  background-color: #ffffff;
+}
+.example-1 table {
+  background-color: #c3fa96;
+}
+
+.example-2 {
+  background-color: #fefaff;
+}
+.example-2 table {
+  background-color: #e8eaed;
+}
+.example-2 table tr {
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.example-2 table tr th {
+  background-color: #cce6ff;
+}
+.example-2 table tr:nth-child(even) {
+  background-color: #edf2fa;
+}
+.example-2 table tr:hover {
+  background-color: #d9dadb;
+}/*# sourceMappingURL=style.css.map */
